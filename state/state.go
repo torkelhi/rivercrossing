@@ -84,5 +84,6 @@ func MoveTo(MoveTo string) string {
 		return HsState[6]
 	}
 
-	return "HS (eventuelt og ting/dyr) til (båt/Vest/Øst) || Ulovlig handling"
+	fmt.Println("HS (eventuelt og ting/dyr) til (båt/Vest/Øst) || Ulovlig handling")
+	return ""
 }
